@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">">
+  <title>Mythology: Hades and Persephone</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function showGodInfo() {
+      var god = document.getElementById("god-select").value;
+      var sections = document.querySelectorAll(".myth-info");
+      sections.forEach(function(section) {
+        section.style.display = "none";
+      });
+      if (god) {
+        document.getElementById(god).style.display = "block";
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Greek Mythology: Hades and Persephone</h1>
+  </header>
+
+  <nav>
+    <a href="beginning.html">The Beginning</a> | 
+    <a href="middle.html">Conflict</a> | 
+    <a href="end.html">Conclusion</a>
+  </nav>
+
+  <section>
+
+    
+  <img src="img/index-img.jpg" alt="Hades and Persephone" class="small">
+
+    <h2>Introduction ᯓᡣ𐭩.ᐟ ⊹</h2>
+    <p>
+        A story of power, love, and the passage of the seasons is found in the ancient Greek myth of Hades and Persephone. It narrates the tale of Persephone, the daughter of the harvest goddess Demeter, who is taken by the god of the underworld, Hades, to become his queen. This story addresses themes of loss, reunion, and the harmony between life and death in addition to explaining the origin of the seasons. 
+    </p>
+
+    <div class="start-button-container">
+      <a href="beginning.html" class="start-button">Start the Story Here!</a>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Other Greek Myths ⋆౨ৎ˚⟡˖ ࣪</h2>
+    <p>Greek mythology is filled with fascinating stories of gods, heroes, and monsters. Each myth has its own unique lessons, adventures, and morals that have been passed down through generations. While the story of Hades and Persephone is one of the most well-known, here are some other captivating Greek myths that have left their mark on literature and culture:</p>
+
+    <table>
+      <tr>
+        <th>Myth</th>
+        <th>Summary</th>
+      </tr>
+      <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Odyssey" target="_blank">The Odyssey</a></td>
+        <td>The journey of Odysseus as he returns home after the Trojan War, facing numerous trials along the way.</td>
+      </tr>
+      <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Labours_of_Heracles" target="_blank"><Table>The Twelve Labors of Hercules</Table></a></td>
+        <td>Hercules must complete twelve nearly impossible tasks as punishment for killing his family.</td>
+      </tr>
+      <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Trojan_War" target="_blank">The Trojan War</a></td>
+        <td>A ten-year war between the Greeks and Trojans, sparked by the abduction of Helen, leading to the fall of Troy.</td>
+      </tr>
+    </table>
+  </section>
+  
+  <section>
+    <h2>Popular Greek Gods ˚₊‧꒰ა ☆ ໒꒱ ‧₊˚</h2>
+    <img src="img/greek-gods.webp" alt="gods" class="small">
+
+    <div class="dropdown-container">
+        <h3>Learn More About Greek Gods</h3>
+        <form>
+          <label for="god-select">Choose a god from the image above to learn more about them:</label>
+          <select id="god-select" name="god" onchange="showGodInfo()">
+            <option value="">--Select a God--</option>
+            <option value="hermes">Hermes</option>
+            <option value="demeter">Demeter</option>
+            <option value="dionysus">Dionysus</option>
+            <option value="apollo">Apollo</option>
+            <option value="athena">Athena</option>
+            <option value="hades">Hades</option>
+            <option value="aphrodite">Aphrodite</option>
+            <option value="artemis">Artemis</option>
+            <option value="zeus">Zeus</option>
+            <option value="hera">Hera</option>
+            <option value="poseidon">Poseidon</option>
+            <option value="ares">Ares</option>
+          </select>
+        </form>
+
+        <div id="hermes" class="myth-info">
+          <h4>Hermes</h4>
+          <p> The messenger of the gods, Hermes is known for his speed and cunning nature. He is also the god of trade, thieves, and travel, often depicted with winged sandals and a staff called the caduceus.</p>
+        </div>
+        <div id="demeter" class="myth-info">
+          <h4>Demeter</h4>
+          <p>The goddess of the harvest and agriculture, Demeter controls the fertility of the earth and the changing of the seasons. Her grief over her daughter Persephone’s abduction causes the winter season.</p>
+        </div>
+        <div id="dionysus" class="myth-info">
+          <h4>Dionysus</h4>
+          <p>The god of wine, revelry, and ecstasy, Dionysus is associated with the transformative power of wine and the celebration of life’s pleasures. He is often depicted with grapevines and is celebrated in dramatic festivals.
+          </p>
+        </div>
+        <div id="apollo" class="myth-info">
+          <h4>Apollo</h4>
+          <p>The god of the sun, music, prophecy, and healing, Apollo represents knowledge and artistic inspiration. He is known for his oracle at Delphi and is often shown with a lyre.</p>
+        </div>
+        <div id="athena" class="myth-info">
+          <h4>Athena</h4>
+          <p>The goddess of wisdom, warfare, and strategy, Athena is revered for her intellectual and strategic prowess. She is the patron of the city of Athens and is often depicted with an owl and a shield.</p>
+        </div>
+        <div id="hades" class="myth-info">
+          <h4>Hades</h4>
+          <p>The god of the Underworld, Hades rules over the dead and the realm of the deceased. Although often perceived as gloomy, he is essential to the cycle of life and death.</p>
+        </div>
+        <div id="aphrodite" class="myth-info">
+          <h4>Aphrodite</h4>
+          <p> The goddess of love, beauty, and desire, Aphrodite is associated with romantic and physical attraction. She is often depicted emerging from the sea and is considered the epitome of beauty.</p>
+        </div>
+        <div id="artemis" class="myth-info">
+          <h4>Artemis</h4>
+          <p>The goddess of the hunt, wilderness, and childbirth, Artemis is known for her independence and strength. She is often shown with a bow and arrows and is a protector of young women.
+          </p>
+        </div>
+        <div id="zeus" class="myth-info">
+          <h4>Zeus</h4>
+          <p>The king of the gods, Zeus rules the sky and thunder and is known for his authority over both gods and mortals. He is often depicted with a thunderbolt and is central to many myths.</p>
+        </div>
+        <div id="hera" class="myth-info">
+          <h4>Hera</h4>
+          <p>The queen of the gods and goddess of marriage and family, Hera is known for her jealousy and protectiveness over marital fidelity. She is often shown with a peacock and a crown.</p>
+        </div>
+        <div id="poseidon" class="myth-info">
+          <h4>Poseidon</h4>
+          <p>The god of the sea, earthquakes, and horses, Poseidon wields a powerful trident and rules the ocean. He is known for his tempestuous nature and influence over the waters.</p>
+        </div>
+        <div id="ares" class="myth-info">
+          <h4>Ares</h4>
+          <p> The god of war and violence, Ares embodies the brutal and chaotic aspects of conflict. He is often depicted in armor and is associated with the chaos of battle.</p>
+        </div>
+      </div>
+
+    <h3> Here are the top 5 most popular Greek Gods!</h3>
+    <ol>
+      <li>Zeus - King of the gods, god of the sky and thunder.</li>
+      <li>Hera - Queen of the gods, goddess of marriage and family.</li>
+      <li>Athena - Goddess of wisdom, courage, and warfare.</li>
+      <li>Poseidon - God of the sea, earthquakes, and horses.</li>
+      <li>Ares - God of war and violence.</li>
+    </ol>
+
+</section>
+
+  <footer>
+    <p>Mya Volety | COMP 426</p>
+  </footer>
+</body>
+</html>

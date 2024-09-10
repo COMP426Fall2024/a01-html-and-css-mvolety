@@ -1,0 +1,147 @@
+
+body {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #aec9a9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #173d21;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #70a472;
+    color: white;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    background-color: #476e49;
+  }
+  
+  section {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #dce8da;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+
+section h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  section ol {
+    list-style-type: decimal; 
+    padding-left: 0; 
+    margin: 0 auto; 
+    width: fit-content; 
+  }
+  
+  section ol li {
+    text-align: left;
+  }
+  
+  .myth-info {
+    display: none;
+    margin-top: 20px;
+  }
+  .myth-info h4 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+  }
+  .dropdown-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.start-button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.start-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #70a472;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #476e49; 
+} 
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #eef7ee;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+
+  footer {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: #173d21;
+    color: white;
+    margin-top: 20px;
+  }
+
+  form select {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+  }
+  
+  img.small {
+    width: 350px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+  }
+
+  img.size {
+    width: 500px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+  }
